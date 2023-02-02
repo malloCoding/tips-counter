@@ -1,5 +1,7 @@
 body {
     background-image: url("wallpaper.jpg");
+    background-size: cover;
+    height: 100vh;
     font-family: 'Itim', cursive;
     font-weight: bold;
     text-align: center;

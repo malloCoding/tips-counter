@@ -6,7 +6,7 @@ let total = 0
 
 function increment() {
     count += 1
-    countEl.textContent = count
+    countEl.textContent = count + "$"
 }
 
 function save() {
@@ -14,7 +14,7 @@ function save() {
     saveEl.textContent += countStr
     total += count
     totalEl.textContent = "Total: " + total + "$" 
-    countEl.textContent = 0
+    countEl.textContent = 0 + "$"
     count = 0
 }
 
